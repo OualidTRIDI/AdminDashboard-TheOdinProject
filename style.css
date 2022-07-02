@@ -1,0 +1,32 @@
+body {
+  background-color: #fff;
+  margin: 0px;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "sd hd hd hd hd hd"
+    "sd mc mc mc mc mc"
+    "sd mc mc mc mc mc"
+    "sd mc mc mc mc mc";
+}
+
+.header {
+  background-color: aqua;
+
+  grid-area: hd;
+}
+
+.sidebar {
+  background-color: blueviolet;
+
+  grid-area: sd;
+}
+
+.main-content {
+  background-color: orange;
+
+  grid-area: mc;
+}
