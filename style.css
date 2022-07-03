@@ -118,7 +118,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #1992d4;
-  font-weight: bold;
   color: #fff;
 
   grid-row: 1/3;
@@ -137,6 +136,7 @@ body {
 
 .logo-text {
   font-size: 2em;
+  font-weight: bold;
 }
 
 .sidebar-links-section {
