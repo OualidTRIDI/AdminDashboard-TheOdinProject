@@ -113,6 +113,8 @@ body {
 
 /* End Header Style */
 
+/*Start Sidebar Style*/
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -141,21 +143,33 @@ body {
 .sidebar-links-section {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   padding: 20px;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 10px;
 }
 
 .link {
   display: flex;
-  margin-top: 10px;
 }
 
 .link-icon {
-  background-color: #fff;
-  height: 15px;
-  width: 15px;
-  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
 }
+
+.link-icon img {
+  height: 100%;
+}
+
+/*Start Sidebar Style*/
 
 .main-content {
   background-color: #e2e8f0;
